@@ -19,8 +19,8 @@ const ContainerNavbar = () => {
   return (
     <Layout>
       <Navbar variant="static" css={{
-      boxShadow: "none"
-    }}>
+        boxShadow: "none"
+      }}>
         <Navbar.Toggle showIn="xs" />
 
         <Navbar.Brand
@@ -30,18 +30,18 @@ const ContainerNavbar = () => {
             },
           }}
         >
-          <Text b color="blue" hideIn="xs">
-            Pollito Comunica
+          <Text b color="blue" hideIn="xs" size="$2xl">
+            POLLITO COMUNICA
           </Text>
         </Navbar.Brand>
 
         <Navbar.Content
           hideIn="xs"
         >
-          <Navbar.Link href="#">Dreamers</Navbar.Link>
+          <Navbar.Link href="#">Soñadores</Navbar.Link>
           <Navbar.Link href="#">Blog</Navbar.Link>
-          <Navbar.Link href="#">Memories</Navbar.Link>
-          <Navbar.Link href="#">Next adventure</Navbar.Link>
+          <Navbar.Link href="#">Memorias</Navbar.Link>
+          <Navbar.Link href="#">Siguiente Aventura</Navbar.Link>
         </Navbar.Content>
 
         <Navbar.Content
