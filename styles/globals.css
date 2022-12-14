@@ -139,6 +139,18 @@ h1,h2,h3,h4,h5,h6{
 }
 
 @media screen and (max-width: 640px ){
-  
+  .container__layout_counter{
+    height: auto;
+    padding: 12px 0;
+  }
+  .layout_counter{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container__title h1{
+    font-size: 60px;
+  }
 }
 
