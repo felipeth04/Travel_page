@@ -8,7 +8,7 @@ const Counter = () => {
     let interval = useRef();
 
     const startTimer = () => {
-        const countDownDate = new Date('Nov 12, 2023 00:00:00').getTime();
+        const countDownDate = new Date('Dec 16, 2022 00:00:00').getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
@@ -19,7 +19,9 @@ const Counter = () => {
             const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 
             if(distance < 0){
-
+                setTimerDays('00');
+                setTimerHours('00');
+                setTimerMinutes('00');
             }else{
                 setTimerDays(days);
                 setTimerHours(hours);
