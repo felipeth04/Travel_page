@@ -18,3 +18,27 @@ ul{
 h1,h2,h3,h4,h5,h6{
   font-weight: bold;
 }
+
+.container-header{
+  width: 100%;
+  height: 100%;
+  padding: 0 30px;
+  position: relative;
+}
+
+.container-header img{
+  width: 100%;
+  height: 100%;
+}
+
+.container-title h1{
+  background: linear-gradient(269.73deg, #CDEE00 -9.59%, #02007A 95.59%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 111px;
+  position: absolute;
+  top: 100px;
+}
