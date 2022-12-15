@@ -1,5 +1,5 @@
 import ContainerNavbar from "../components/navbar/navbar";
-import Counter from "../components/Counter/counter";
+import Counter from "../components/counter/counter";
 
 export default function Home() {
   return (
