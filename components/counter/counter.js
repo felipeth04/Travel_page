@@ -27,7 +27,7 @@ const Counter = () => {
                 setTimerHours(hours);
                 setTimerMinutes(minutes);
             }
-        },(1000 * 60))
+        },1000)
     }
 
     useEffect(() => {

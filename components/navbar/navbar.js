@@ -76,7 +76,7 @@ const ContainerNavbar = () => {
                   Signed in as
                 </Text>
                 <Text b color="inherit" css={{ d: "flex" }}>
-                  zoey@example.com
+                  miniñahermosa@gmail.com
                 </Text>
               </Dropdown.Item>
               <Dropdown.Item key="settings" withDivider>
