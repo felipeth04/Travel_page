@@ -1,5 +1,5 @@
 import { Navbar, Link, Text, Avatar, Dropdown } from "@nextui-org/react";
-import { Layout } from "./Layout.js";
+import { Layout } from "./layout.js";
 
 const ContainerNavbar = () => {
 
