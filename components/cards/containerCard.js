@@ -5,21 +5,22 @@ export const Card1 = () => {
         <Card>
             <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
                 <Col>
-                    <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
-                        What to watch
+                    <Text size={14} weight="bold" transform="uppercase" color="white">
+                    MAYO/13/2022
                     </Text>
-                    <Text h4 color="white">
-                        Stream the Acme event
+                    <Text h3 color="white">
+                        Guatape (Antioquia)
                     </Text>
                 </Col>
             </Card.Header>
             <Card.Image
-                src="https://i.pinimg.com/originals/24/b4/19/24b419dbfc9572c27aeb25f4212b2751.jpg"
+                src="../img/guatape.jpg"
                 objectFit="cover"
                 width="100%"
                 height={340}
                 alt="Card image background"
             ></Card.Image>
+            
         </Card>
     )
 }
@@ -29,16 +30,16 @@ export const Card2 = () => {
         <Card css={{ w: "100%" }}>
             <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
                 <Col>
-                    <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
-                        Plant a tree
+                    <Text size={14} weight="bold" transform="uppercase" color="white">
+                        MAYO/22/2022
                     </Text>
-                    <Text h4 color="white">
-                        Contribute to the planet
+                    <Text h3 color="white">
+                        Doradal (P. Triunfo)
                     </Text>
                 </Col>
             </Card.Header>
             <Card.Image
-                src="https://wallpaperaccess.com/full/3665285.png"
+                src="../img/doradal.jpg"
                 width="100%"
                 height={340}
                 objectFit="cover"
@@ -53,16 +54,16 @@ export const Card3 = () => {
         <Card css={{ bg: "$black", w: "100%" }}>
             <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
                 <Col>
-                    <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
-                        Supercharged
+                    <Text size={14} weight="bold" transform="uppercase" color="white">
+                        JULIO/02/2022
                     </Text>
-                    <Text h4 color="white">
-                        Creates beauty like a beast
+                    <Text h3 color="white">
+                        Hacienda Napoles (P. Triunfo)
                     </Text>
                 </Col>
             </Card.Header>
             <Card.Image
-                src="https://static.vecteezy.com/system/resources/previews/002/042/904/original/night-landscape-with-empty-highway-and-forest-vector.jpg"
+                src="../img/haceinda_nap.jpg"
                 width="100%"
                 height={340}
                 objectFit="cover"
@@ -77,17 +78,17 @@ export const Card4 = () => {
         <Card css={{ w: "100%", h: "400px" }}>
             <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
                 <Col>
-                    <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
-                        New
+                    <Text size={14} weight="bold" transform="uppercase" color="white">
+                        Diciembre/04/2022
                     </Text>
-                    <Text h3 color="black">
-                        Acme camera
+                    <Text h2 color="white">
+                        ComicCon 2022
                     </Text>
                 </Col>
             </Card.Header>
             <Card.Body css={{ p: 0 }}>
                 <Card.Image
-                    src="https://img.freepik.com/vector-gratis/ciudad-moderna-noche-horizonte-neon-dibujos-animados_1441-3160.jpg?w=2000"
+                    src="../img/comic_con.jpg"
                     width="100%"
                     height="100%"
                     objectFit="cover"
@@ -107,10 +108,10 @@ export const Card4 = () => {
                 <Row>
                     <Col>
                         <Text color="#000" size={12}>
-                            Available soon.
+                            La siguiente <strong>comic con 2023</strong> esta cerca
                         </Text>
                         <Text color="#000" size={12}>
-                            Get notified.
+                            Recibir una notificación
                         </Text>
                     </Col>
                     <Col>
@@ -122,7 +123,7 @@ export const Card4 = () => {
                                     weight="bold"
                                     transform="uppercase"
                                 >
-                                    Notify Me
+                                    Notificación
                                 </Text>
                             </Button>
                         </Row>
@@ -138,17 +139,17 @@ export const Card5 = () => {
         <Card css={{ w: "100%", h: "400px" }}>
             <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
                 <Col>
-                    <Text size={12} weight="bold" transform="uppercase" color="#9E9E9E">
-                        Your day your way
+                    <Text size={14} weight="bold" transform="uppercase" color="white">
+                        Noviembre/12/2022
                     </Text>
-                    <Text h3 color="white">
-                        Your checklist for better sleep
+                    <Text h2 color="white">
+                        Alejandria (Antioquia)
                     </Text>
                 </Col>
             </Card.Header>
             <Card.Body css={{ p: 0 }}>
                 <Card.Image
-                    src="https://img.freepik.com/vector-premium/fondo-playa-verano-costa-arena-costa-mar-palmeras-vocacion-costera-viajes-dibujos-animados-ilustracion-fondo_102902-1407.jpg?w=2000"
+                    src="../img/alejandria_ant.jpg"
                     objectFit="cover"
                     width="100%"
                     height="100%"
@@ -168,21 +169,12 @@ export const Card5 = () => {
                 <Row>
                     <Col>
                         <Row>
-                            <Col span={3}>
-                                <Card.Image
-                                    src="https://nextui.org/images/breathing-app-icon.jpeg"
-                                    css={{ bg: "black", br: "50%" }}
-                                    height={40}
-                                    width={40}
-                                    alt="Breathing app icon"
-                                />
-                            </Col>
                             <Col>
                                 <Text color="#d1d1d1" size={12}>
-                                    Breathing App
+                                    Ahora puedes revivir
                                 </Text>
                                 <Text color="#d1d1d1" size={12}>
-                                    Get a good night's sleep.
+                                    Los mejores recuerdos de esta gran aventrura.
                                 </Text>
                             </Col>
                         </Row>
@@ -193,7 +185,7 @@ export const Card5 = () => {
                                 flat
                                 auto
                                 rounded
-                                css={{ color: "#94f9f0", bg: "#94f9f026" }}
+                                color="secondary"
                             >
                                 <Text
                                     css={{ color: "inherit" }}
@@ -201,7 +193,7 @@ export const Card5 = () => {
                                     weight="bold"
                                     transform="uppercase"
                                 >
-                                    Get App
+                                    REVIVIR MEMORIA
                                 </Text>
                             </Button>
                         </Row>
